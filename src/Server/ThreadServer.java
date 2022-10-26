@@ -1,4 +1,4 @@
-package MarkADom.MultipleClientServerClass;
+package Server;
 
 import java.io.*;
 import java.net.Socket;

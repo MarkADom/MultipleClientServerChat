@@ -1,4 +1,4 @@
-package MarkADom.MultipleClientServerClass;
+package MarkADom.MultipleClientServerClass.Clients;
 
 
 import java.io.BufferedReader;
