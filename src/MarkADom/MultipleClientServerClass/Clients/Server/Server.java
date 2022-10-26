@@ -1,4 +1,4 @@
-package Server;
+package MarkADom.MultipleClientServerClass.Clients.Server;
 
 
 import java.net.ServerSocket;
@@ -13,7 +13,7 @@ public class Server
         ArrayList<Socket> clients = new ArrayList<>();
         HashMap<Socket, String> clientNameList = new HashMap<Socket, String>();
         try (ServerSocket serversocket = new ServerSocket(8085)) {
-            System.out.println("Server is started...");
+            System.out.println("MarkADom.MultipleClientServerClass.MarkADom.MultipleClientServerClass.Clients.Clients.Server is started...");
             while (true) {
                 Socket socket = serversocket.accept();
                 clients.add(socket);
